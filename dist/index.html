@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Smart Age Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+</head>
+<body class="">
+   <header class="tw-px-4 tw-p-5 tw-border">
+       <div class="tw-flex tw-justify-between tw-items-center">
+            <div class="tw-hidden tablet:tw-flex tw-justify-between tw-items-center tw-border tw-border-custom-orange-1 tw-rounded-full tw-w-36 tw-h-10 tw-px-4">
+                <img src="./images/Location.svg" alt="Location"/>
+                <p class="tw-font-raleway">Find a Store</p>
+            </div>
+            <div class="tw-sidebar tw-ml-hide-side-bar tw-absolute tw-bg-custom-search-1 tw-h-full tw-top-0 tw-left-0 tw-fixed ipad:tw-hidden">
+                <button class="tw-cancel-btn tw-bg-custom-search-2 tw-text-sm tw-w-12 tw-h-12 tw-font-bold tw-w-full">X</button>
+                <ul class="tw-w-200px tw-top-0 tw-mt-5">
+                    <li class="tw-pl-5 tw-p-2 hover:tw-bg-custom-search-2"><a>COLLECTIONS</a></li>
+                    <li class="tw-pl-5 tw-p-2 hover:tw-bg-custom-search-2"><a>CATEGORIES</a></li>
+                    <li class="tw-pl-5 tw-p-2 hover:tw-bg-custom-search-2"><a>STORES</a></li>
+                    <li class="tw-pl-5 tw-p-2 hover:tw-bg-custom-search-2"><a>OUR STORY</a></li>
+                    <li class="tw-pl-5 tw-p-2 hover:tw-bg-custom-search-2"><a>CONTACT</a></li>
+                </ul>
+            </div>
+            <div>
+                <img class="tw-menu-btn tw-flex tablet:tw-hidden tw-cursor-pointer" src="./images/menuIcon.svg" alt="menu"/>
+            </div>
+            <div class="tw-flex tw-items-center">
+                <img class="ipad:tw-flex tw-hidden tw-mr-5" src="./images/Vector.svg" alt=""/>
+                <img class="ipad:tw-flex tw-hidden tw-mr-5" src="./images/Shape.svg" alt=""/>
+                <img class="tw-mr-3 tablet:tw-mr-5 laptop:tw-mr-8" src="./images/Bag.svg" alt=""/>
+                <img class="ipad:tw-bg-custom-search-1 tw-border-custom-search-2 tw-cursor-pointer tw-p-2 tw-rounded-full" src="./images/ShapeSearch.svg" alt=""/>
+            </div>
+       </div>
+
+       <div class="tw-flex tablet:tw-justify-center">
+            <img class="tw-w-mobile-logo-size tw-ml-9 tw-mt-negative-35px  tablet:tw-ml-0 ipad:tw-w-ipad-logo-size laptop:tw-w-normal-logo-size laptop:tw-mt-0" src="./images/logosvg.svg" alt="Smart Age"/>
+       </div>
+
+       <div class="tw-flex tw-justify-center tw-mt-5">
+           <ul class="tablet:tw-flex tw-hidden tw-flex tw-justify-between tw-w-700px">
+               <li><a class="tw-cursor-pointer">COLLECTIONS</a></li>
+               <li><a class="tw-cursor-pointer">CATEGORIES</a></li>
+               <li><a class="tw-cursor-pointer">STORES</a></li>
+               <li><a class="tw-cursor-pointer">OUR STORY</a></li>
+               <li><a class="tw-cursor-pointer">CONTACT</a></li>
+           </ul>
+       </div>
+   </header>
+
+   <!-- ==============================================SHOWCASE============================================= -->
+
+   <div class="tw-flex tw-flex-col-reverse ipad:tw-flex-row ipad:tw-h-500px laptop:tw-h-800px tw-bg-custom-orange-2">
+        <div class="tw-flex tw-flex-col tw-justify-between tw-items-center ipad:tw-w-20 ipad:tw-h-470px laptop:tw-h-700px tw-bg-white">
+            
+            <div class="tw-showcase-btns tw-flex tw-justify-center tw-items-center ipad:tw-pt-5 ipad:tw-justify-start ipad:tw-flex-col">
+                <button class="tw-showcase-btn tw-showcase-btn-1 tw-m-5 tw-w-10 tw-h-10 tw-rounded-full tw-showcase-btn-styles laptop:tw-mt-5">1</button>
+                <button class="tw-showcase-btn tw-showcase-btn-2 tw-m-5 tw-w-10 tw-h-10 tw-rounded-full">2</button>
+                <button class="tw-showcase-btn tw-showcase-btn-3 tw-w-10 tw-h-10 tw-rounded-full">3</button>
+            </div>
+
+            <div class="tw-hidden tw-h-100 tw-bg-custom-orange-1 tw-w-px tw-mb-10 ipad:tw-flex laptop:tw-h-200px">
+                <div class=""></div>
+            </div>
+
+            <h3 class="tw-transform tw-rotate-90 tw-mb-20 tw-text-xs tw-hidden tw-flex tw-items-center ipad:tw-flex laptop:tw-text-base">DISCOVER_MORE</h3>
+                
+        </div>
+
+        <div class="tw-showcase-slides tw-h-300px tw-flex tw-overflow-hidden ipad:tw-h-500px laptop:tw-w-full laptop:tw-h-800px">
+            <div class="tw-bg-showcasebg-1 tw-bg-repeat-no tw-bg-center tw-bg-cover tw-min-w-full tw-h-full">
+                <h2 class="tw-text-4xl tw-font-playfair tw-leading-10 tw-tracking-widest tw-text-white tw-font-bold tw-ml-5 tw-mb-2 tw-mt-32 ipad:tw-mt-80 laptop:tw-mt-500px laptop:tw-ml-20 laptop:tw-mb-4 laptop:tw-text-7xl">Engagement Ring</h2>
+                <div class="tw-flex tw-items-center tablet:tw-w-355px tw-ml-6 tablet:tw-mb-10 ipad:tw-ml-10 laptop:tw-ml-20">
+                    <div class="tw-flex tw-justify-center tw-items-center tw-border tw-border-custom-orange-1 tw-rounded-full tw-w-45px tw-h-45px">
+                        <img class="tw-fill-white" src="./images/seta.svg"/>
+                    </div>
+                    
+                    <p class="tw-ml-2 tw-font-raleway tw-text-sm tw-text-white">EXPLORE</p>
+                </div>
+            </div>
+            <div class="tw-bg-showcasebg-1 tw-bg-repeat-no tw-bg-center tw-bg-cover tw-min-w-full tw-h-full">
+                <h2 class="tw-text-4xl tw-font-playfair tw-leading-10 tw-tracking-widest tw-text-white tw-font-bold tw-ml-5 tw-mb-2 tw-mt-32 ipad:tw-mt-80 laptop:tw-mt-500px laptop:tw-ml-20 laptop:tw-mb-4 laptop:tw-text-7xl">Engagement Ring</h2>
+                <div class="tw-flex tw-items-center tablet:tw-w-355px tw-ml-6 tablet:tw-mb-10 ipad:tw-ml-10 laptop:tw-ml-20">
+                    <div class="tw-flex tw-justify-center tw-items-center tw-border tw-border-custom-orange-1 tw-rounded-full tw-w-45px tw-h-45px">
+                        <img class="" src="./images/seta.svg"/>
+                    </div>
+                    
+                    <p class="tw-ml-2 tw-font-raleway tw-text-sm tw-text-white">EXPLORE</p>
+                </div>
+            </div>
+            <div class="tw-bg-showcasebg-1 tw-bg-repeat-no tw-bg-center tw-bg-cover tw-min-w-full tw-h-full">
+                <h2 class="tw-text-4xl tw-font-playfair tw-leading-10 tw-tracking-widest tw-text-white tw-font-bold tw-ml-5 tw-mb-2 tw-mt-32 ipad:tw-mt-80 laptop:tw-mt-500px laptop:tw-ml-20 laptop:tw-mb-4 laptop:tw-text-7xl">Engagement Ring</h2>
+                <div class="tw-flex tw-items-center tablet:tw-w-355px tw-ml-6 tablet:tw-mb-10 ipad:tw-ml-10 laptop:tw-ml-20">
+                    <div class="tw-flex tw-justify-center tw-items-center tw-border tw-border-custom-orange-1 tw-rounded-full tw-w-45px tw-h-45px">
+                        <img class="" src="./images/seta.svg"/>
+                    </div>
+                    
+                    <p class="tw-ml-2 tw-font-raleway tw-text-sm tw-text-white">EXPLORE</p>
+                </div>
+            </div>
+        </div>
+   </div>
+
+    <!-- =========================================================================================== -->
+
+   <div class="tw-flex tw-flex-col tablet:tw-flex-row laptop:tw-h-700px">
+        <div class="tw-flex tw-justify-center tw-bg-custom-orange-2 tablet:tw-w-8/12">
+            <div class="tw-w-64 laptop:tw-w-600px">
+                <h1 class="tw-text-4xl tw-font-bold tw-font-playfair tw-mb-5 tw-leading-100% tw-mt-10 tw-w-56 tablet:tw-text-42px ipad:tw-mt-20 laptop:tw-text-7xl laptop:tw-w-500px laptop:tw-leading-20 laptop:tw-tracking-widest laptop:tw-mt-60 laptop:tw-mb-10">The original Design</h1>
+                <p class="tw-w-44 tw-font-raleway tw-text-xs tw-mb-5 tablet:tw-w-60 laptop:tw-text-lg laptop:tw-leading-7 laptop:tw-tracking-widest laptop:tw-w-600px laptop:tw-mb-10">Inspired by a spectacular historical legacy and the most refreshed glamour or the world today.</p>
+                <div class="tw-flex tw-items-center tw-w-full tw-mb-10 tablet:tw-mb-0">
+                    <div class="tw-flex tw-justify-center tw-items-center tw-border tw-border-custom-orange-1 tw-rounded-full tw-w-45px tw-h-45px">
+                        <img src="./images/seta.svg"/>
+                    </div>
+                    
+                    <p class="tw-ml-2 tw-font-raleway tw-text-sm">EXPLORE</p>
+                </div>
+            </div>
+        </div>
+        <div class="tablet:tw-w-5/12">
+            <img class="laptop:tw-h-full" src="./images/image_watch.png"/>
+        </div>
+   </div>
+
+    <!-- =========================================================================================== -->
+    
+    <div class="tw-flex tw-flex-col tw-items-center">
+        <h3 class="tw-text-lg tw-font-relaway tw-leading-snug tw-tracking-widest tw-mt-10 tw-mb-4 ipad:tw-text-lx ipad:tw-leading-snug">THE LATEST FROM</h3>
+        <h1 class="tw-font-playfair tw-text-4xl tw-tracking-widest tw-leading-10 tw-text-custom-orange-1 tw-font-bold laptop:tw-text-7xl laptop:tw-leading-relaxed">Jewelry Store</h1>
+        <p class="tw-text-base tw-leading-5 tw-tracking-widest tw-text-center tw-w-64 tw-my-5 tablet:tw-w-full tablet:tw-text-sm laptop:tw-text-lg laptop:tw-leading-7">Discover all that's new, brilliant and beautiful in the world of Brand's Name</p>
+
+        <div class="tw-flex tw-justify-center tw-items-center tw-w-full tw-mb-10 tablet:tw-mb-10 laptop:tw-mb-16">
+            <div class="tw-flex tw-justify-center tw-items-center tw-border tw-border-custom-orange-1 tw-rounded-full tw-w-45px tw-h-45px">
+                <img src="./images/seta.svg"/>
+            </div>
+            
+            <p class="tw-ml-2 tw-font-raleway tw-text-sm">SEE MORE</p>
+        </div>
+    </div>
+
+
+    <!-- =========================================================================================== -->
+
+    <div class="tablet:tw-flex tablet:tw-h-406px laptop:tw-h-700px">
+        <div class="ipad:tw-w-550px laptop:tw-w-1/2">
+            <img class="tablet:tw-h-full laptop:tw-w-full" src="./images/image_bridal.png" alt=""/>
+        </div>
+        <div class="tw-bg-custom-wine tw-py-10 tablet:tw-flex tablet:tw-flex-col tablet:tw-items-center ipad:tw-items-start ipad:tw-w-full laptop:tw-w-3/5 laptop:tw-items-start laptop:tw-justify-center">
+            
+                <h1 class="tw-font-playfair tw-ml-6 tw-text-4xl tw-tracking-widest tw-leading-10 tw-text-custom-orange-1 tw-font-bold tw-w-40 tablet:tw-w-auto tablet:tw-text-center ipad:tw-text-42px ipad:tw-text-left ipad:tw-ml-10 ipad:tw-leading-relaxed ipad:tw-w-auto laptop:tw-w-96 laptop:tw-text-left laptop:tw-text-7xl laptop:tw-leading-tight laptop:tw-mb-6 laptop:tw-ml-20">Classic Bridal</h1>
+                <p class="tw-text-base tw-leading-6 tw-ml-6 tw-tracking-widest tw-text-white tw-w-72 tw-my-5 tablet:tw-w-355px ipad:tw-ml-10 laptop:tw-w-530px laptop:tw-mb-14 laptop:tw-ml-20 laptop:tw-text-lg">Our extraordinary diamonds are chosen to celebrate a love, a hope and a passion. Brilliantly capturing our passion for diamonds, a member of the family individually hands-selects each stone within our bridal collection. So you can fall in love with a diamond for eternity.</p>
+
+                <div class="tw-flex tw-items-center tablet:tw-w-355px tw-ml-6 tablet:tw-mb-10 ipad:tw-ml-10 laptop:tw-ml-20">
+                    <div class="tw-flex tw-justify-center tw-items-center tw-border tw-border-custom-orange-1 tw-rounded-full tw-w-45px tw-h-45px">
+                        <img class="" src="./images/seta.svg"/>
+                    </div>
+                    
+                    <p class="tw-ml-2 tw-font-raleway tw-text-sm tw-text-white">SHOP NOW</p>
+                </div>
+           
+        </div>
+    </div>
+
+    <!-- =============||||||||||||||||||||||||||||||||||||||||||||||||||======================================== -->
+
+    
+       <div class="tw-slides tw-text-white tw-py-2 tw-border-white">
+           <div class="tw-bg-ringImage tw-bg-repeat-no tw-bg-right tw-bg-cover tw-w-full tw-ml-2">
+               <P class="tw-text-lg tw-font-raleway tw-leading-snug tw-tracking-widest tw-text-center tw-mt-10 tablet:tw-mt-36">CATEGORY</P>
+               <h1 class="tw-font-playfair tw-text-6xl tw-tracking-widest tw-leading-snug tw-text-center tablet:tw-text-5xl laptop:tw-text-8xl laptop:tw-leading-10 laptop:tw-tracking-widest laptop:tw-mt-8">Rings</h1>
+           </div>
+           <div class="tw-bg-ringImage-2 tw-bg-repeat-no tw-bg-right tw-bg-cover tw-w-full tw-ml-2">
+                <P class="tw-text-lg tw-font-raleway tw-leading-snug tw-tracking-widest tw-text-center tw-mt-10 tablet:tw-mt-36">CATEGORY</P>
+                <h1 class="tw-font-playfair tw-text-6xl tw-tracking-widest tw-leading-snug tw-text-center tablet:tw-text-5xl laptop:tw-text-8xl laptop:tw-leading-10 laptop:tw-tracking-widest laptop:tw-mt-8">Rings</h1>
+           </div>
+           <div class="tw-bg-ringImage tw-bg-repeat-no tw-bg-right tw-bg-cover tw-w-full tw-ml-2">
+                <P class="tw-text-lg tw-font-raleway tw-leading-snug tw-tracking-widest tw-text-center tw-mt-10 tablet:tw-mt-36 laptop:tw-text-2xl laptop:tw-leading-7">CATEGORY</P>
+                <h1 class="tw-font-playfair tw-text-6xl tw-tracking-widest tw-leading-snug tw-text-center tablet:tw-text-5xl laptop:tw-text-8xl laptop:tw-leading-10 laptop:tw-tracking-widest laptop:tw-mt-8">Rings</h1>
+           </div>
+       </div>
+
+    <!-- =========================================================================================== -->
+
+    <div class="tw-py-5">
+        <div>
+            <p class="tw-text-lg tw-font-raleway tw-leading-5 tw-tracking-widest tw-text-center tablet:tw-mt-5">SHOP</p>
+            <h1 class="tw-font-playfair tw-text-4xl tw-text-custom-wine tw-tracking-widest tw-leading-10 tw-text-center tw-w-56 tw-mx-auto tablet:tw-w-full">Selected for You</h1>
+        </div>
+        <div class="tw-rings-slides tw-h-200px tw-mt-10 laptop:tw-h-300px">
+            <div class="tw-mx-auto">
+                <img class="tw-mx-auto" src="./images/ring-3.png" alt=""/>
+            </div>
+            <div class="tw-mx-auto">
+                <img class="tw-mx-auto" src="./images/ring-2.png" alt=""/>
+            </div>
+            <div class="tw-mx-auto">
+                <img class="tw-mx-auto" src="./images/ring-3.png" alt=""/>
+            </div>
+            <div class="tw-mx-auto">
+                <img class="tw-mx-auto" src="./images/ring-1.png" alt=""/>
+            </div>
+        </div>
+    </div>
+    <!-- =========================================================================================== -->
+
+    <div class="ipad:tw-h-600px ipad:tw-overflow-hidden laptop:tw-h-900px">
+        <div class="tw-bg-custom-orange-1 tw-mt-10 ipad:tw-h-533px ipad:tw-pt-24 laptop:tw-h-800px">
+            <h1 class="tw-pt-8 tw-pb-5 tw-ml-10 tw-text-4xl tw-font-playfair tw-font-bold tw-tracking-widest tw-leading-10 ipad:tw-text-4xl ipad:tw-absolute tw-z-50 laptop:tw-text-7xl laptop:tw-leading-relaxed laptop:tw-mt-20 laptop:tw-ml-36">Collections</h1>
+            
+            <div class="ipad:tw-flex ipad:tw-items-center">
+                <div class="tw-slide-names tw-hidden tw-flex tw-flex-col tw-justify-center tw-px-10 ipad:tw-flex laptop:tw-pl-36 laptop:tw-pr-16 laptop:tw-mt-80">
+                    <a href="#" data-slide="0" class="tw-ass tw-font-raleway tw-text-base tw-leading-7 tw-tracking-widest laptop:tw-text-2xl laptop:tw-leading-7">SWIRLD_RINGS</a>
+                    <a  href="#" data-slide="1" class="tw-ass tw-my-5 tw-font-raleway tw-text-base tw-leading-7 tw-tracking-widest laptop:tw-text-2xl laptop:tw-leading-7 laptop:tw-my-10">BUTTERFLY</a>
+                    <a  href="#" data-slide="2" class="tw-ass tw-font-raleway tw-text-base tw-leading-7 tw-tracking-widest laptop:tw-text-2xl laptop:tw-leading-7">CARISSA</a>
+                </div>
+                <div class="tw-collection-slides tw-px-2 ipad:tw-h-350px">
+                    <div class="tw-m-2">
+                        <p class="tw-mb-1 tw-font-raleway tw-text-sm tw-leading-4 tw-tracking-widest ipad:tw-hidden">SWIRLD RINGS</p>
+                        <div>
+                            <img class="" src="./images/collectionImg.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="tw-m-2">
+                        <p class="tw-mb-1 tw-font-raleway tw-text-sm tw-leading-4 tw-tracking-widest ipad:tw-hidden">BUTTERFLY</p>
+                        <div>
+                            <img class="" src="./images/collectionImg-2.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="tw-m-2">
+                        <p class="tw-mb-1 tw-font-raleway tw-text-sm tw-leading-4 tw-tracking-widest ipad:tw-hidden">CARISSA</p>
+                        <div>
+                            <img class="" src="./images/collectionImg-3.jpg" alt=""/>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            <div class="tw-flex tw-items-center tw-pb-10 tablet:tw-w-355px tw-ml-6 tablet:tw-mb-10 ipad:tw-ml-10 laptop:tw-ml-32 laptop:tw-mt-28">
+                <div class="tw-flex tw-justify-center tw-items-center tw-border tw-border-black tw-rounded-full tw-w-45px tw-h-45px">
+                    <img class="" src="./images/seta.svg"/>
+                </div>
+                
+                <p class="tw-ml-2 tw-font-raleway tw-text-sm tw-text-black">SHOP NOW</p>
+            </div>
+    
+        </div>
+    </div>
+
+    <!-- =========================================================================================== -->
+
+    <div class="tw-py-8 tw-flex tw-flex-col tw-justify-center tw-items-center ipad:tw-pt-20">
+        <p class="tw-font-raleway tw-text-lg tw-leading-snug laptop:tw-text-xl">ABOUT US</p>
+        <h1 class="tw-font-playfair tw-text-4xl tw-tracking-widest tw-leading-10 tw-text-custom-orange-1 tw-text-center tw-font-bold tw-w-64 laptop:tw-text-7xl laptop:tw-leading-relaxed laptop:tw-w-500px">Excellence & Tradition</h1>
+    </div>
+
+    <!-- =========================================================================================== -->
+
+    <div class="tw-w-full tw-h-406px tw-flex tw-overflow-y-hidden tablet:tw-overflow-y-visible tablet:tw-px-3 tablet:tw-h-500px laptop:tw-h-700px">
+        <div class="tw-bg-traditional-bg1 tw-bg-repeat-no tw-bg-center tw-bg-cover tw-w-300px tw-h-80 tw-mr-4 tablet:tw-mr-0 tablet:tw-w-200px tablet:tw-h-56 ipad:tw-w-250px ipad:tw-h-64 laptop:tw-w-500px laptop:tw-h-550px">
+            <div class="tw-p-3 tw-ml-5 tw-bg-white tw-w-250px tw-float-right tw-mt-270px tablet:tw-w-full tablet:tw-p-0 tablet:tw-mt-56 ipad:tw-mt-64 laptop:tw-w-11/12 laptop:tw-p-5 laptop:tw-mt-470px">
+                <p class="tw-font-raleway tw-text-lg tw-tracking-wide tw-leading-snug tw-text-custom-orange-1 tablet:tw-text-base laptop:tw-text-xl laptop:tw-leading-normal">PROCESS</p>
+                <h3 class="tw-font-playfair tw-text-4xl tw-font-bold tw-leading-10 tablet:tw-text-3xl laptop:tw-text-5xl laptop:tw-leading-tight">Love is in the Details</h3>
+            </div>
+        </div>
+
+        <div class="tw-bg-traditional-bg2 tw-bg-repeat-no tw-bg-center tw-bg-cover tw-w-300px tw-h-80 tw-mr-4 tablet:tw-m-3 tablet:tw-mt-10 tablet:tw-w-200px tablet:tw-h-56 ipad:tw-w-250px ipad:tw-h-64 laptop:tw-w-500px laptop:tw-h-550px">
+            <div class="tw-bg-white tw-p-3 tw-ml-5 tw-w-250px tw-float-right tw-mt-270px tablet:tw-w-full tablet:tw-p-0 tablet:tw-mt-56 ipad:tw-mt-64 laptop:tw-w-11/12 laptop:tw-p-5 laptop:tw-mt-470px">
+                <p class="tw-font-raleway tw-text-lg tw-tracking-wide tw-leading-snug tw-text-custom-orange-1 tablet:tw-text-base laptop:tw-text-xl laptop:tw-leading-normal">OUR STORY</p>
+                <h3 class="tw-font-playfair tw-text-4xl tw-font-bold tw-leading-10 tablet:tw-text-3xl laptop:tw-text-5xl laptop:tw-leading-tight">A family traditional</h3>
+            </div>
+        </div>
+
+        <div class="tw-bg-traditional-bg3 tw-bg-repeat-no tw-bg-center tw-bg-cover tw-w-300px tw-h-80 tablet:tw-mr-0 tablet:tw-w-200px tablet:tw-h-56 ipad:tw-w-250px ipad:tw-h-64 laptop:tw-w-500px laptop:tw-h-550px">
+            <div class="tw-bg-white tw-p-3 tw-ml-5 tw-w-250px tw-float-right tw-mt-270px tablet:tw-w-full tablet:tw-p-0 tablet:tw-mt-56 ipad:tw-mt-64 laptop:tw-w-11/12 laptop:tw-p-5 laptop:tw-mt-470px">
+                <p class="tw-font-raleway tw-text-lg tw-tracking-wide tw-leading-snug tw-text-custom-orange-1 tablet:tw-text-base laptop:tw-text-xl laptop:tw-leading-normal">MATERIAL</p>
+                <h3 class="tw-font-playfair tw-text-3xl tw-font-bold tw-leading-10 tablet:tw-text-3xl laptop:tw-text-5xl laptop:tw-leading-tight">We deliver the best quality</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================================================== -->
+
+    <div class="tw-px-6 ipad:tw-px-20 ipad:tw-flex ipad:tw-justify-between ipad:tw-py-20">
+        <div class="tw-py-8 ipad:tw-py-0">
+            <h3 class="tw-tex-lg tw-tracking-widest tw-text-center tw-font-relaway tw-leading-snug ipad:tw-text-left laptop:tw-text-xl laptop:tw-leading-7 laptop:tw-tracking-widest">EVENTS</h3>
+            <h1 class="tw-text-4xl tw-font-bold tw-font-playfair tw-text-custom-orange-1 tw-leading-10 tw-tracking-widest tw-text-center laptop:tw-text-7xl laptop:tw-leading-relaxed">Meet us at:</h1>
+        </div>
+        <div class="ipad:tw-w-1/2">
+            <div class="tw-pb-5 tablet:tw-flex tablet:tw-justify-between tablet:tw-items-center ipad:tw-flex-col tw-border-t-2 tw-border-b-2 tw-border-custom-search-2 tw-py-5 laptop:tw-flex-row laptop:tw-justify-between laptop:tw-items-end">
+                <div class="ipad:tw-flex ipad:tw-items-center ipad:tw-justify-between ipad:tw-w-full laptop:tw-flex-col laptop:tw-justify-start laptop:tw-items-start laptop:tw-w-2/5">
+                    <p class="tw-text-lg tw-font-raleway tw-tracking-widest tw-leading-snug laptop:tw-text-xl laptop:tw-leading-7 laptop:tw-tracking-widest">APRIL</p>
+                    <h1 class="tw-text-4xl tw-font-bold tw-font-playfair tw-text-custom-orange-1 tw-tracking-widest tw-leading-10 tw-mb-5 laptop:tw-mb-0 laptop:tw-text-5xl laptop:tw-leading-10 laptop:tw-tracking-widest">19-20th</h1>
+                </div>
+                <div class="ipad:tw-w-full laptop:tw-w-4/5">
+                    <h4 class="tw-text-2xl tw-font-ralaway tw-font-bold tw-leading-7 tw-tracking-widest tw-w-50 tablet:tw-w-auto laptop:tw-text-3xl laptop:tw-leading-10 laptop:tw-tracking-widest">The Shops at Chestnut Hill</h4>
+                    <p class="tw-font-raleway ipad:tw-text-2xl">Bloomingdale's, Chestnut Hill, MA</p>
+                </div>
+            </div>
+
+            <div class="tw-pb-5 tablet:tw-flex tablet:tw-justify-between tablet:tw-items-center ipad:tw-flex-col tw-border-b-2 tw-border-custom-search-2 tw-py-5 laptop:tw-flex-row laptop:tw-justify-between laptop:tw-items-end">
+                <div class="ipad:tw-flex ipad:tw-items-center ipad:tw-justify-between ipad:tw-w-full laptop:tw-flex-col laptop:tw-justify-start laptop:tw-items-start laptop:tw-w-2/5">
+                    <p class="tw-text-lg tw-font-raleway tw-tracking-widest tw-leading-snug laptop:tw-text-xl laptop:tw-leading-7 laptop:tw-tracking-widest">APRIL</p>
+                    <h1 class="tw-text-4xl tw-font-bold tw-font-playfair tw-text-custom-orange-1 tw-tracking-widest tw-leading-10 tw-mb-5 laptop:tw-mb-0 laptop:tw-text-5xl laptop:tw-leading-10 laptop:tw-tracking-widest">19th</h1>
+                </div>
+                <div class="ipad:tw-w-full laptop:tw-w-4/5">
+                    <h4 class="tw-text-2xl tw-font-relaway tw-font-bold tw-leading-7 tw-tracking-widest tw-w-50 tablet:tw-w-auto laptop:tw-text-3xl laptop:tw-leading-10 laptop:tw-tracking-widest">Stuart Kingston Retailer</h4>
+                    <p class="tw-font-raleway ipad:tw-text-2xl">3704 Kennett Pike Suite 450 Greenville, DE 19807</p>
+                </div>
+            </div>
+
+            <div class="tw-pb-5 tablet:tw-flex tablet:tw-justify-between tablet:tw-items-center ipad:tw-flex-col tw-border-b-2 tw-border-custom-search-2 tw-py-5 laptop:tw-flex-row laptop:tw-justify-between laptop:tw-items-end">
+                <div class="ipad:tw-flex ipad:tw-items-center ipad:tw-justify-between ipad:tw-w-full laptop:tw-flex-col laptop:tw-justify-start laptop:tw-items-start laptop:tw-w-2/5">
+                    <p class="tw-text-lg tw-font-raleway tw-tracking-widest tw-leading-snug laptop:tw-text-xl laptop:tw-leading-7 laptop:tw-tracking-widest">APRIL</p>
+                    <h1 class="tw-text-4xl tw-font-bold tw-font-playfair tw-text-custom-orange-1 tw-tracking-widest tw-leading-10 tw-mb-5 laptop:tw-mb-0 laptop:tw-text-5xl laptop:tw-leading-10 laptop:tw-tracking-widest">19-20th</h1>
+                </div>
+                <div class="ipad:tw-w-full laptop:tw-w-4/5">
+                    <h4 class="tw-text-2xl tw-font-relaway tw-font-bold tw-leading-7 tw-tracking-widest tw-w-50 tablet:tw-w-auto laptop:tw-text-3xl laptop:tw-leading-10 laptop:tw-tracking-widest">The Shops at Chestnut Hill</h4>
+                    <p class="tw-font-raleway ipad:tw-text-2xl">Bloomingdale's, Chestnut Hill, MA</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================================================== -->
+
+    <div class="tw-bg-custom-search-1 tw-py-10">
+        <div class="tw-flex tw-justify-center laptop:tw-items-baseline">
+            <img class="tw-w-8 tw-mr-2" src="./images/instagramIcon.svg" alt=""/>
+            <h1 class="tw-text-4xl tw-tracking-widest tw-font-playfair tw-font-bold tw-text-custom-wine tw-leading-10 laptop:tw-text-7xl laptop:tw-leading-relaxed">Instagram</h1>
+        </div>       
+        <p class="tw-font-playfair tw-text-2xl tw-leading-loose tw-text-center laptop:tw-text-4xl laptop:tw-leading-10">@smartashop</p>
+        <div class="tw-insta-slides tw-w-full tw-flex tw-justify-center tw-items-center tw-h-350px tablet:tw-h-500px laptop:tw-h-550px">
+            
+            <div class="">
+                <img class="tw-mx-auto tw-my-12" src="./images/instaIma1.png" alt=""/>
+            </div>
+            <div class="">
+                <img class="tw-mx-auto tw-my-12" src="./images/instaIma2.png" alt=""/>
+            </div>
+            <div class="0">
+                <img class="tw-mx-auto tw-my-12" src="./images/instaIma3.png" alt=""/>
+            </div>
+            <div class="">
+                <img class="tw-mx-auto tw-my-12" src="./images/instaIma2.png" alt=""/>
+            </div>
+            <div class="0">
+                <img class="tw-mx-auto tw-my-12" src="./images/instaIma1.png" alt=""/>
+            </div>
+            <div class="">
+                <img class="tw-mx-auto tw-my-12" src="./images/instaIma3.png" alt=""/>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+
+    <!-- =========================================================================================== -->
+
+    <div class="tw-flex tw-flex-col tw-justify-center tw-items-center tw-h-300px tw-bg-stores_bgImage tw-bg-repeat-no tw-bg-center tw-bg-cover ipad:tw-h-450px laptop:tw-text-xl laptop:tw-h-550px">
+        <p class="tw-text-lg tw-leading-snug tw-font-ralaway tw-tracking-widest tw-text-custom-orange-1">STORES</p>
+        <h1 class="tw-font-playfair tw-text-4xl tw-font-bold tw-leading-10 tw-tracking-widest tw-my-8 laptop:tw-text-7xl laptop:tw-leading-relaxed tw-text-white">Find Store</h1>
+        <div class="tw-flex tw-justify-center tw-items-center tw-border tw-border-custom-orange-1 tw-rounded-full tw-w-45px tw-h-45px">
+            <img class="" src="./images/seta.svg"/>
+        </div>
+    </div>
+
+
+    <!-- =========================================================================================== -->
+
+    <div class="tw-bg-custom-dark-1 tw-pt-5">
+        <div class="tw-w-11/12 tw-my-0 tw-mx-auto tablet:tw-flex tablet:tw-justify-between tablet:tw-items-center ipad:tw-w-9/12 laptop:tw-w-85%">
+            <ul class="tw-hidden tw-text-white tw-w-500px tw-flex tw-justify-between desktop:tw-flex">
+                <li><a class="tw-font-raleway tw-text-sm tw-leading-4 tw-tracking-widest tw-font-bold">COLLECTIONS</a></li>
+                <li><a class="tw-font-raleway tw-text-sm tw-leading-4 tw-tracking-widest tw-font-bold">CATEGORIES</a></li>
+                <li><a class="tw-font-raleway tw-text-sm tw-leading-4 tw-tracking-widest tw-font-bold">STORES</a></li>
+                <li><a class="tw-font-raleway tw-text-sm tw-leading-4 tw-tracking-widest tw-font-bold">OUR STORY</a></li>
+            </ul>
+
+            <div class="tw-w-32 tw-mb-5 tw-my-0 tw-mx-auto tw-flex tw-justify-between tablet:tw-mb-0 tablet:tw-mx-0 desktop:tw-ml-56">
+                <img src="./images/facebook_icon.svg" alt="facebook"/>
+                <img src="./images/instagram_icon.svg" alt="instagram"/>
+                <img src="./images/twitter_icon.svg" alt="twitter"/>
+            </div>
+
+            <button class="tw-w-full tw-h-45px tw-border tw-border-custom-btn-border tw-leading-4 tw-text-xs tw-tracking-widest tw-text-white tablet:tw-w-334px">CONTACT US</button>
+        </div>
+
+        <div class="tw-w-11/12 tw-pb-6 tw-mx-auto tw-mt-5 tw-border-b tw-border-custom-gray-2 tablet:tw-border-t tablet:tw-border-b tablet:tw-py-5 ipad:tw-mt-7 ipad:tw-w-9/12 laptop:tw-w-85%">
+            <h2 class="tw-font-playfair tw-font-bold tw-text-2xl tw-font-bold tw-text-custom-orange-1 tw-leading-8 tw-mb-3 tablet:tw-text-center ipad:tw-mb-5">Sign up for our newsletter</h2>
+            <div>
+                <div class="tw-flex tw-flex-col tablet:tw-border  tablet:tw-border-custom-orange-1 tablet:tw-flex-row tablet:tw-items-center tablet:tw-justify-between tablet:tw-p-1 ipad:tw-w-600px ipad:tw-mx-auto">
+                    <input class="tw-text-sm tw-leading-6 tw-text-white tw-w-full tw-h-55px tw-pl-2 tw-outline-none tw-bg-custom-dark-1 tw-border tw-border-custom-orange-1 tablet:tw-border-none tablet:tw-w-450px" type="text" placeholder="Enter your e-mail"/>
+                    <button class="tw-bg-custom-orange-1 tw-w-full tw-h-55px tw-leading-4 tw-text-xs tw-tracking-widest tw-font-raleway tw-mt-3 tablet:tw-w-32 tablet:tw-mt-0">SUBSCRIBE</button>
+                </div>
+                <div class="tw-text-custom-gray-1 tw-mt-5 tablet:tw-flex tablet:tw-w-full tablet:tw-justify-between tablet:tw-items-center laptop:tw-w-700px laptop:tw-mx-auto">
+                    <p class="tw-font-raleway tw-text-sm tw-leading-10 tw-tracking-widest">PRIVACY POLICY</p><span class="tw-hidden tablet:tw-flex">/</span>
+                    <p class="tw-font-raleway tw-text-sm tw-leading-10 tw-tracking-widest">RETURNS AND EXCHANGES</p><span class="tw-hidden tablet:tw-flex">/</span>
+                    <p class="tw-font-raleway tw-text-sm tw-leading-10 tw-tracking-widest">TRACK ORDER</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tw-w-11/12 tw-my-0 tw-mx-auto tw-text-white tablet:tw-mt-5 laptop:tw-flex laptop:tw-justify-between ipad:tw-w-9/12 laptop:tw-w-85%">
+            <div class="tablet:tw-flex tablet:tw-justify-between tablet:tw-items-start laptop:tw-w-700px">
+                <div class="tw-mb-9 tw-mt-8 tablet:tw-mt-0">
+                    <p class="tw-text-base tw-font-raleway tw-leading-snug tw-tracking-wider tw-font-bold ">CONTACT US</p>
+                    <P class="tw-font-raleway">owner@example.com</P>
+                </div>
+                <div class="tablet:tw-w-80">
+                    <p class="tw-text-base tw-font-raleway tw-leading-snug tw-tracking-wider tw-font-bold tw-mb-5">SUPPORT</p>
+                    <div class="tw-flex tw-justify-between tw-w-full tw-mb-7">
+                        <img class="tw-w-20 tablet:tw-w-24 laptop:tw-mr-10" src="./images/gia_icon.svg" alt=""/>
+                        <img class="tw-w-20 tablet:tw-w-24 laptop:tw-mr-5" src="./images/gia_icon.svg" alt=""/>
+                        <img class="tw-w-20 tablet:tw-w-24" src="./images/gia_icon.svg" alt=""/>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <p class="tw-text-base tw-font-raleway tw-leading-snug tw-tracking-wider tw-font-bold tw-mb-5">PAYMENT METHODS</p>
+                <div class="tw-flex tw-justify-between tw-w-64 ipad:tw-w-72">
+                    <img src="./images/Mastercard.svg" alt=""/>
+                    <img src="./images//Visa.svg" alt=""/>
+                    <img src="./images/Discover.svg" alt=""/>
+                    <img src="./images/PayPal.svg" alt=""/>
+                    <img src="./images/AmericanExpress.svg" alt=""/>
+                </div>
+            </div>
+        </div>
+
+        <div class="tw-flex tw-flex-col tw-items-center tw-justify-center tw-bg-custom-gray-2 tw-mt-10 tw-py-4 tw-px-5 tablet:tw-flex-row tablet:tw-justify-between laptop:tw-px-32">
+            <p class="tw-font-raleway tw-text-xs tw-leading-4 tw-tracking-widest tw-text-white tw-text-center tw-w-64 tw-mb-2 tablet:tw-text-left tablet:tw-w-334px laptop:tw-w-auto">Smart Age Solutions, © 2019 | MADE WITH LOVE BY SMART AGE SLUTIONS</p>
+            <img src="./images/footer_logo.svg" alt=""/>
+        </div>
+    </div>
+
+    <!-- =========================================================================================== -->
+
+    
+
+    <!-- =========================================================================================== -->
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.tw-showcase-btn-1').click(function(){
+                $('.tw-showcase-slides').find('div').eq(0).css({
+                    'margin-left':'0',
+                    'transition':'.2s ease-in-out',
+                });
+            });
+            $('.tw-showcase-btn-2').click(function(){
+                $('.tw-showcase-slides').find('div').eq(0).css({
+                    'margin-left':'-100%',
+                    'transition':'.2s ease-in-out',
+                });
+            });
+            $('.tw-showcase-btn-3').click(function(){
+                $('.tw-showcase-slides').find('div').eq(0).css({
+                    'margin-left':'-200%',
+                    'transition':'.2s ease-in-out',
+                });
+            });
+
+        });
+
+        $('.tw-showcase-btn').click(function() {
+            $('.tw-showcase-btn').removeClass("tw-showcase-btn-styles");
+
+            $(this).parent().find('.tw-showcase-btn').removeClass("tw-showcase-btn-styles");
+            $(this).addClass("tw-showcase-btn-styles");
+        });
+    </script>
+
+    <script>
+
+        $('.tw-collection-slides').slick({
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade:true,
+            arrows: false,
+
+            responsive: [
+                    {
+                    breakpoint: 770,
+                    settings: {
+                        slidesToShow: 1,
+                        fade:true,
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 1.2,
+                        fade:false,
+                    }
+                    }
+                ]
+
+        });
+
+        $('a[data-slide]').click(function(e) {
+            e.preventDefault();
+            var slideno = $(this).data('slide');
+            $('.tw-collection-slides').slick('slickGoTo', slideno);
+        });
+
+        
+
+        
+
+
+
+
+        $('.tw-slides').slick({
+            infinite: false,
+            slidesToShow: 1.3,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow:"<img class='a-left control-c prev slick-prev tw-absolute tw-left-0 tw-top-60 tw-z-50' src='./images/arrow-left.svg'>",
+            nextArrow:"<img class='a-right control-c next slick-next tw-absolute tw-right-0 tw-top-60 tw-z-50' src='./images/arrow-right.svg'>",
+
+            responsive: [
+                    {
+                    breakpoint: 770,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 1.1,
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 1.1,
+                    }
+                    }
+                ],
+                
+
+                
+        });
+
+        $('.tw-slides').on('afterChange', function (event, slick, currentSlide) {
+            if(currentSlide === 2) {
+                $('.tw-slides .slick-next').hide();
+            }
+            else {
+                $('.tw-slides .slick-next').show();
+            }
+
+            if(currentSlide === 0) {
+                $('.tw-slides .slick-prev').hide();
+            }
+            else {
+                $('.tw-slides .slick-prev').show();
+            }  
+        });
+
+        $('.tw-rings-slides').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+            arrows: true,
+            horizontal:true,
+            centerPadding: '60px',
+            prevArrow:"<img class='a-left control-c prev slick-prev tw-absolute tw-left-0 tw-top-1/4 tw-z-50' src='./images/arrow-left.svg'>",
+            nextArrow:"<img class='a-right control-c next slick-next tw-absolute tw-right-0 tw-top-1/4 tw-z-50' src='./images/arrow-right.svg'>",
+
+            responsive: [
+                    {
+                    breakpoint: 770,
+                    settings: {
+                        arrows: true,
+                        slidesToShow: 3,
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 1,
+                    }
+                    }
+                ]
+        });
+
+        $('.tw-insta-slides').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            centerMode: true,
+            arrows: true,
+            centerPadding: '60px',
+            prevArrow:"<img class='a-left control-c prev slick-prev tw-absolute tw-left-0 tw-top-1/4 tw-z-50' src='./images/arrow-left.svg'>",
+            nextArrow:"<img class='a-right control-c next slick-next tw-absolute tw-right-0 tw-top-1/4 tw-z-50' src='./images/arrow-right.svg'>",
+
+            responsive: [
+                    {
+                    breakpoint: 770,
+                    settings: {
+                        arrows: true,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3,
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1,
+                    }
+                    }
+                ]
+                
+            });
+
+
+            $(".tw-cancel-btn").click(function() {
+                $(".tw-sidebar").css({
+                    'margin-left':'-100%',
+                    'transition':'.5s ease-in-out'
+                });
+            });
+
+            $(".tw-menu-btn").click(function() {
+                $(".tw-sidebar").css({
+                    'margin-left':'0%',
+                    'transition':'.5s ease-in-out'
+                });
+            });
+		    
+    </script>
+    
+
+</body>
+
+</html>

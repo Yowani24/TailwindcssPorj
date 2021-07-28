@@ -1,0 +1,11 @@
+<svg width="1800" height="650" viewBox="0 0 1800 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1803" height="650">
+<rect width="1803" height="650" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<rect x="-42" y="-225" width="1880" height="1253"/>
+<g style="mix-blend-mode:multiply">
+<rect x="-57" y="-31" width="2060" height="853" fill="#383838"/>
+</g>
+</g>
+</svg>
